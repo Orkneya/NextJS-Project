@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "clsx": "^2.1.1",
     "next": "14.0.5-canary.51",
     "react": "^18",
     "react-dom": "^18"
@@ -17,10 +18,13 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.21",
     "eslint": "^8.57.1",
     "eslint-config-next": "14.0.5-canary.51",
     "eslint-config-prettier": "^9.1.0",
+    "postcss": "^8.5.6",
     "prettier": "^3.6.2",
+    "tailwindcss": "^3.4.18",
     "typescript": "^5"
   }
 }
