@@ -9,12 +9,12 @@ export default function Home() {
     <main>
       <h1 className="text-xl"> Page Home </h1>
       {/* <h1 className="text-xl"> Page Home {new Date().toTimeString()} </h1> */}
-
-      <StatusLabel status={Status.Active}>Active</StatusLabel>
-      <StatusLabel status={Status.NotActive}>Not Active</StatusLabel>
-      <StatusLabel status={Status.Pending}>Pending</StatusLabel>
-      <StatusLabel status={Status.Suspended}>Suspended</StatusLabel>
-
+      <div className="flex gap-2 mb-4">
+        <StatusLabel status={Status.Active}>Active</StatusLabel>
+        <StatusLabel status={Status.NotActive}>Not Active</StatusLabel>
+        <StatusLabel status={Status.Pending}>Pending</StatusLabel>
+        <StatusLabel status={Status.Suspended}>Suspended</StatusLabel>
+      </div>
       <AddCompanyButton />
     </main>
   );

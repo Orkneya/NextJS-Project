@@ -13,7 +13,9 @@ export default function AddCompanyButton() {
   const [show, setShow] = useState(false);
   return (
     <>
-      <Button onClick={() => setShow(true)}>Add company</Button>
+      <Button className="block" onClick={() => setShow(true)}>
+        Add company
+      </Button>
 
       {show && (
         <CompanyFormModal
