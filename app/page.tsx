@@ -1,4 +1,5 @@
 import AddCompanyButton from "./components/add-company-button";
+// import MagicButton from "./components/magic-button";
 import StatusLabel, { Status } from "./components/status-label";
 import { headers } from "next/headers";
 
@@ -16,6 +17,7 @@ export default function Home() {
         <StatusLabel status={Status.Suspended}>Suspended</StatusLabel>
       </div>
       <AddCompanyButton />
+      {/* <MagicButton /> */}
     </main>
   );
 }
