@@ -3,11 +3,8 @@
 import React from "react";
 import { Form, Formik } from "formik";
 import Button from "./button";
-// '@/app/components/button';
 import InputField from "./input-field";
-// '@/app/components/input-field';
 import LogoUploader from "./logo-uploader";
-// '@/app/components/logo-uploader';
 
 export type CompanyFieldValues = {
   name: string;
